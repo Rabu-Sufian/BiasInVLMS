@@ -1,0 +1,337 @@
+model,ID,topic,sub_topic,avg_margin,pmi_margin,prefers_gt_seq,prefers_gt_pmi,sequence_outcome,correct_numeric_eval,generated_matches_proxy,margin_token,entropy_token,prefers_gt_token,outcome,token_seq_agree,agreement_type
+LLaVA-OV-7B,flag_of_australia_prompt1,Flags,flags,-1.671874761581421,-2.107665777206421,False,0.0,proxy_confusion,False,True,-1.578125,1.481871247291565,False,proxy confusion,True,both prefer proxy
+LLaVA-OV-7B,flag_of_burundi_prompt1,Flags,flags,1.9375,1.8095703125,True,1.0,correct,True,False,1.5937500298023224,1.0683127641677856,True,correct,True,both prefer GT
+LLaVA-OV-7B,flag_of_china_prompt1,Flags,flags,0.59375,0.65869140625,True,1.0,proxy_confusion,False,True,-0.65625,1.3659487962722778,False,proxy confusion,False,sequence GT / token proxy
+LLaVA-OV-7B,flag_of_comoros_prompt1,Flags,flags,0.234375,-0.2563481330871582,True,0.0,correct,True,False,0.390625,1.1806586980819702,True,correct,True,both prefer GT
+LLaVA-OV-7B,flag_of_cuba_prompt1,Flags,flags,-4.640624761581421,-4.021971940994263,False,0.0,proxy_confusion,False,True,-4.921874776482582,0.6911175847053528,False,proxy confusion,True,both prefer proxy
+LLaVA-OV-7B,flag_of_greece_prompt1,Flags,flags,-1.6351457238197329,2.3177961707115173,False,1.0,other_numeric_error,False,False,-0.765625,1.5604339838027954,False,other numeric error,True,both prefer proxy
+LLaVA-OV-7B,flag_of_grenada_prompt1,Flags,flags,-1.75,-1.526123046875,False,0.0,proxy_confusion,False,True,-1.2499998807907104,1.5487133264541626,False,proxy confusion,True,both prefer proxy
+LLaVA-OV-7B,flag_of_new_zealand_prompt1,Flags,flags,1.453124761581421,0.9624016284942628,True,1.0,correct,True,False,0.90625,1.3880200386047363,True,correct,True,both prefer GT
+LLaVA-OV-7B,flag_of_singapore_prompt1,Flags,flags,3.515625,4.006348133087158,True,1.0,correct,True,False,3.343750089406967,0.8518570065498352,True,correct,True,both prefer GT
+LLaVA-OV-7B,flag_of_thailand_prompt1,Flags,flags,-2.890625238418579,-2.271972417831421,False,0.0,proxy_confusion,False,True,-2.8750000298023224,0.9850739240646362,False,proxy confusion,True,both prefer proxy
+LLaVA-OV-7B,flag_of_uruguay_prompt1,Flags,flags,-2.8314742743968964,1.1214676201343536,False,1.0,other_numeric_error,False,False,-1.796874761581421,1.6544089317321775,False,other numeric error,True,both prefer proxy
+LLaVA-OV-7B,flag_of_venezuela_prompt1,Flags,flags,1.4375,1.44287109375,True,1.0,correct,True,False,1.2343750298023224,1.012789249420166,True,correct,True,both prefer GT
+LLaVA-OV-7B,flag_of_zimbabwe_prompt1,Flags,flags,-1.09375,-0.657958984375,False,0.0,other_numeric_error,False,False,-0.625,1.922245740890503,False,other numeric error,True,both prefer proxy
+LLaVA-OV-7B,flag_of_the_philippines_prompt1,Flags,flags,-0.78125,-0.9091796875,False,0.0,proxy_confusion,False,True,-1.25,1.848387360572815,False,proxy confusion,True,both prefer proxy
+LLaVA-OV-7B,african_elephant_prompt1,Animals,animal,6.687499798834324,7.309570111334324,True,1.0,correct,True,False,7.203124807681888,0.0416151657700538,True,correct,True,both prefer GT
+LLaVA-OV-7B,african_wild_dog_prompt1,Animals,animal,6.656249776482582,7.278320088982582,True,1.0,correct,True,False,7.437500037020072,0.0318858958780765,True,correct,True,both prefer GT
+LLaVA-OV-7B,alpaca_prompt1,Animals,animal,6.515624959953129,7.137695272453129,True,1.0,correct,True,False,6.703124867519364,0.03182078525424,True,correct,True,both prefer GT
+LLaVA-OV-7B,antelope_prompt1,Animals,animal,6.078124910593033,6.700195223093033,True,1.0,correct,True,False,6.765624859603122,0.0326636955142021,True,correct,True,both prefer GT
+LLaVA-OV-7B,arctic_fox_prompt1,Animals,animal,5.593749955296516,6.215820267796516,True,1.0,correct,True,False,6.3749999683350325,0.0510912388563156,True,correct,True,both prefer GT
+LLaVA-OV-7B,asian_elephant_prompt1,Animals,animal,6.437500204890966,7.059570517390966,True,1.0,correct,True,False,7.124999916180968,0.0482348799705505,True,correct,True,both prefer GT
+LLaVA-OV-7B,audi_prompt1,Logos,cars,6.023437291383743,6.151366978883743,True,1.0,correct,True,False,6.539062696509063,0.1065457239747047,True,correct,True,both prefer GT
+LLaVA-OV-7B,avocet_prompt1,Animals,animal,4.921874850988388,5.595702975988388,True,1.0,correct,True,False,5.078124823048711,0.083902470767498,True,correct,True,both prefer GT
+LLaVA-OV-7B,bactrian_camel_prompt1,Animals,animal,5.671875018626452,6.293945331126452,True,1.0,correct,True,False,6.1093751029111445,0.0490144155919551,True,correct,True,both prefer GT
+LLaVA-OV-7B,bighorn_sheep_prompt1,Animals,animal,6.124999847263098,6.747070159763098,True,1.0,correct,True,False,6.703124833293259,0.074507363140583,True,correct,True,both prefer GT
+LLaVA-OV-7B,bison_prompt1,Animals,animal,5.875000141561031,6.497070454061031,True,1.0,correct,True,False,6.2656250493600965,0.0959811955690383,True,correct,True,both prefer GT
+LLaVA-OV-7B,bobcat_prompt1,Animals,animal,4.890624850988388,5.512695163488388,True,1.0,correct,True,False,5.968750010244548,0.0836630314588546,True,correct,True,both prefer GT
+LLaVA-OV-7B,buffalo_prompt1,Animals,animal,5.843750037252903,6.465820349752903,True,1.0,correct,True,False,6.156250019557774,0.1007587239146232,True,correct,True,both prefer GT
+LLaVA-OV-7B,camel_prompt1,Animals,animal,5.93750000372529,6.55957031622529,True,1.0,correct,True,False,6.125000004656613,0.0590455494821071,True,correct,True,both prefer GT
+LLaVA-OV-7B,caracal_prompt1,Animals,animal,6.156249895691872,6.778320208191872,True,1.0,correct,True,False,6.54687492037192,0.0414438806474208,True,correct,True,both prefer GT
+LLaVA-OV-7B,caribou_prompt1,Animals,animal,5.9375001192092896,6.5595704317092896,True,1.0,correct,True,False,6.593750077299774,0.0697021409869194,True,correct,True,both prefer GT
+LLaVA-OV-7B,cassowary_prompt1,Animals,animal,5.890625229105353,6.564453354105353,True,1.0,correct,True,False,6.203124765306711,0.0531460978090763,True,correct,True,both prefer GT
+LLaVA-OV-7B,cheetah_prompt1,Animals,animal,6.265625029802322,6.887695342302322,True,1.0,correct,True,False,6.687499775085598,0.0460108406841754,True,correct,True,both prefer GT
+LLaVA-OV-7B,chicken_prompt1,Animals,animal,4.765625210478902,4.143554897978902,True,1.0,correct,True,False,5.18750003259629,0.0939070358872413,True,correct,True,both prefer GT
+LLaVA-OV-7B,cow_prompt1,Animals,animal,6.671874918043613,7.293945230543613,True,1.0,correct,True,False,7.031249800696969,0.0567414164543151,True,correct,True,both prefer GT
+LLaVA-OV-7B,coyote_prompt1,Animals,animal,6.984374966472387,7.606445278972387,True,1.0,correct,True,False,7.515625034226105,0.0238360110670328,True,correct,True,both prefer GT
+LLaVA-OV-7B,crane_prompt1,Animals,animal,5.156249850988388,4.534179538488388,True,1.0,correct,True,False,4.6874998938292265,0.1048721224069595,True,correct,True,both prefer GT
+LLaVA-OV-7B,deer_prompt1,Animals,animal,5.781250096857548,6.403320409357548,True,1.0,correct,True,False,6.749999900814146,0.0394275039434433,True,correct,True,both prefer GT
+LLaVA-OV-7B,dingo_prompt1,Animals,animal,6.234374955296516,6.856445267796516,True,1.0,correct,True,False,6.734375135507435,0.0523899272084236,True,correct,True,both prefer GT
+LLaVA-OV-7B,domestic_cat_prompt1,Animals,animal,5.703125,5.8310546875,True,1.0,correct,True,False,6.218749802559614,0.1156057268381118,True,correct,True,both prefer GT
+LLaVA-OV-7B,domestic_dog_prompt1,Animals,animal,6.187500193715096,6.809570506215096,True,1.0,correct,True,False,6.9218750121071935,0.0368034206330776,True,correct,True,both prefer GT
+LLaVA-OV-7B,donkey_prompt1,Animals,animal,6.656249985098839,7.278320297598839,True,1.0,correct,True,False,6.984375005355105,0.0258040335029363,True,correct,True,both prefer GT
+LLaVA-OV-7B,dromedary_camel_prompt1,Animals,animal,5.515624940395355,6.137695252895355,True,1.0,correct,True,False,6.140625003259629,0.0512349009513855,True,correct,True,both prefer GT
+LLaVA-OV-7B,duck_prompt1,Animals,animal,4.9843749683350325,4.3623046558350325,True,1.0,correct,True,False,4.937500080093741,0.0796244889497757,True,correct,True,both prefer GT
+LLaVA-OV-7B,egret_prompt1,Animals,animal,5.59375009033829,6.26757821533829,True,1.0,correct,True,False,6.062500148545951,0.0423240140080452,True,correct,True,both prefer GT
+LLaVA-OV-7B,eland_prompt1,Animals,animal,6.250000137835741,6.872070450335741,True,1.0,correct,True,False,6.609375140629709,0.0486791022121906,True,correct,True,both prefer GT
+LLaVA-OV-7B,elk_prompt1,Animals,animal,6.125000137835741,6.747070450335741,True,1.0,correct,True,False,6.953125145751983,0.0362912788987159,True,correct,True,both prefer GT
+LLaVA-OV-7B,emu_prompt1,Animals,animal,3.4218751043081284,2.7998047918081284,True,1.0,correct,True,False,3.609374936670065,0.2248852998018264,True,correct,True,both prefer GT
+LLaVA-OV-7B,fennec_fox_prompt1,Animals,animal,5.828125111758709,6.450195424258709,True,1.0,correct,True,False,6.359374898020178,0.0451057329773902,True,correct,True,both prefer GT
+LLaVA-OV-7B,gazelle_prompt1,Animals,animal,5.7031248807907104,6.3251951932907104,True,1.0,correct,True,False,6.468749938998371,0.0374650880694389,True,correct,True,both prefer GT
+LLaVA-OV-7B,giraffe_prompt1,Animals,animal,7.093749791383743,6.667968064546585,True,1.0,correct,True,False,7.421875179279596,0.054887019097805,True,correct,True,both prefer GT
+LLaVA-OV-7B,gnu_prompt1,Animals,animal,6.7421872690320015,7.3642575815320015,True,1.0,correct,True,False,6.890624789055437,0.0537519976496696,True,correct,True,both prefer GT
+LLaVA-OV-7B,goat_prompt1,Animals,animal,6.421874839812517,7.043945152312517,True,1.0,correct,True,False,6.937499997671694,0.0483393929898738,True,correct,True,both prefer GT
+LLaVA-OV-7B,gray_wolf_prompt1,Animals,animal,6.984375134110451,7.606445446610451,True,1.0,correct,True,False,7.671875102911144,0.0305417161434888,True,correct,True,both prefer GT
+LLaVA-OV-7B,hare_prompt1,Animals,animal,5.39062512665987,6.01269543915987,True,1.0,correct,True,False,5.5625001564621925,0.0820674300193786,True,correct,True,both prefer GT
+LLaVA-OV-7B,heron_prompt1,Animals,animal,5.234374826774001,5.908202951774001,True,1.0,correct,True,False,5.796875218395144,0.0491433329880237,True,correct,True,both prefer GT
+LLaVA-OV-7B,hippopotamus_prompt1,Animals,animal,5.68749987334013,6.30957018584013,True,1.0,correct,True,False,5.968750073574483,0.0601854883134365,True,correct,True,both prefer GT
+LLaVA-OV-7B,horse_prompt1,Animals,animal,7.09375,7.7158203125,True,1.0,correct,True,False,7.515625164844096,0.0546123385429382,True,correct,True,both prefer GT
+LLaVA-OV-7B,hyena_prompt1,Animals,animal,5.500000089406967,6.122070401906967,True,1.0,correct,True,False,6.031250219792128,0.0464403852820396,True,correct,True,both prefer GT
+LLaVA-OV-7B,ibex_prompt1,Animals,animal,6.109375081956387,6.731445394456387,True,1.0,correct,True,False,6.671874928753823,0.0488523244857788,True,correct,True,both prefer GT
+LLaVA-OV-7B,ibis_prompt1,Animals,animal,6.015625162050128,6.689453287050128,True,1.0,correct,True,False,6.140625083819032,0.059711392968893,True,correct,True,both prefer GT
+LLaVA-OV-7B,impala_prompt1,Animals,animal,6.046874845400453,6.668945157900453,True,1.0,correct,True,False,6.515624872408807,0.0353583991527557,True,correct,True,both prefer GT
+LLaVA-OV-7B,indian_rhinoceros_prompt1,Animals,animal,5.562499888241291,6.184570200741291,True,1.0,correct,True,False,5.9218750251457095,0.0633015781641006,True,correct,True,both prefer GT
+LLaVA-OV-7B,jackal_prompt1,Animals,animal,6.531250238418579,7.153320550918579,True,1.0,correct,True,False,7.265625225147232,0.0273894276469945,True,correct,True,both prefer GT
+LLaVA-OV-7B,jaguar_prompt1,Animals,animal,6.000000149011612,6.622070461511612,True,1.0,correct,True,False,6.5468752179294825,0.0486922301352024,True,correct,True,both prefer GT
+LLaVA-OV-7B,kudu_prompt1,Animals,animal,5.968750094994903,6.590820407494903,True,1.0,correct,True,False,6.359375091269612,0.0393682420253753,True,correct,True,both prefer GT
+LLaVA-OV-7B,lapwing_prompt1,Animals,animal,5.281249798834324,5.955077923834324,True,1.0,correct,True,False,5.703125000465661,0.0418853722512722,True,correct,True,both prefer GT
+LLaVA-OV-7B,leopard_prompt1,Animals,animal,6.0937501192092896,6.7158204317092896,True,1.0,correct,True,False,6.765624976716936,0.0401097685098648,True,correct,True,both prefer GT
+LLaVA-OV-7B,lion_prompt1,Animals,animal,5.7343748807907104,6.3564451932907104,True,1.0,correct,True,False,6.437499919906259,0.0401396639645099,True,correct,True,both prefer GT
+LLaVA-OV-7B,llama_prompt1,Animals,animal,6.1718750931322575,6.7939454056322575,True,1.0,correct,True,False,6.468750165309757,0.036456786096096,True,correct,True,both prefer GT
+LLaVA-OV-7B,lynx_prompt1,Animals,animal,4.828124761581421,5.450195074081421,True,1.0,correct,True,False,5.92187521327287,0.0918231159448623,True,correct,True,both prefer GT
+LLaVA-OV-7B,maned_wolf_prompt1,Animals,animal,5.828124817460775,6.450195129960775,True,1.0,correct,True,False,6.281250097323209,0.0489223711192607,True,correct,True,both prefer GT
+LLaVA-OV-7B,maserati_prompt1,Logos,cars,-0.796875,-0.9248046875,False,0.0,proxy_confusion,False,True,-0.15625,1.6182119846343994,False,proxy confusion,True,both prefer proxy
+LLaVA-OV-7B,mercedes_prompt1,Logos,cars,1.078125,0.4594721794128418,True,1.0,correct,True,False,0.8906250596046448,1.3806391954421997,True,correct,True,both prefer GT
+LLaVA-OV-7B,moose_prompt1,Animals,animal,6.140625186264515,6.762695498764515,True,1.0,correct,True,False,6.812500098720193,0.0711573660373687,True,correct,True,both prefer GT
+LLaVA-OV-7B,mountain_goat_prompt1,Animals,animal,6.281249798834324,6.903320111334324,True,1.0,correct,True,False,6.718749988358468,0.048534270375967,True,correct,True,both prefer GT
+LLaVA-OV-7B,mule_prompt1,Animals,animal,6.390624885447323,7.012695197947323,True,1.0,correct,True,False,6.640625133179128,0.0363934077322483,True,correct,True,both prefer GT
+LLaVA-OV-7B,ocelot_prompt1,Animals,animal,5.859375193715096,6.481445506215096,True,1.0,correct,True,False,6.296875053085387,0.0881205797195434,True,correct,True,both prefer GT
+LLaVA-OV-7B,okapi_prompt1,Animals,animal,6.343749841675162,6.965820154175162,True,1.0,correct,True,False,6.906249912455678,0.0401721633970737,True,correct,True,both prefer GT
+LLaVA-OV-7B,ostrich_prompt1,Animals,animal,4.515624966472387,3.8935546539723873,True,1.0,correct,True,False,4.78125013038516,0.111607551574707,True,correct,True,both prefer GT
+LLaVA-OV-7B,oystercatcher_prompt1,Animals,animal,5.484374925494194,6.158203050494194,True,1.0,correct,True,False,5.906250060535967,0.0500172600150108,True,correct,True,both prefer GT
+LLaVA-OV-7B,peacock_prompt1,Animals,animal,4.406250081956387,3.7841797694563866,True,1.0,correct,True,False,4.499999951571226,0.1300612688064575,True,correct,True,both prefer GT
+LLaVA-OV-7B,pig_prompt1,Animals,animal,7.062500014901161,7.684570327401161,True,1.0,correct,True,False,7.203124959021807,0.0368926636874675,True,correct,True,both prefer GT
+LLaVA-OV-7B,plover_prompt1,Animals,animal,6.593749836087227,7.267577961087227,True,1.0,correct,True,False,6.796875212807208,0.0417350493371486,True,correct,True,both prefer GT
+LLaVA-OV-7B,pronghorn_prompt1,Animals,animal,5.312500201165676,5.934570513665676,True,1.0,correct,True,False,6.328124949708581,0.042029071599245,True,correct,True,both prefer GT
+LLaVA-OV-7B,puma_prompt1,Animals,animal,5.578124955296516,6.200195267796516,True,1.0,correct,True,False,6.015625161118805,0.0549462810158729,True,correct,True,both prefer GT
+LLaVA-OV-7B,rabbit_prompt1,Animals,animal,5.171875149011612,5.793945461511612,True,1.0,correct,True,False,5.578125069849193,0.0946359932422638,True,correct,True,both prefer GT
+LLaVA-OV-7B,red_fox_prompt1,Animals,animal,6.3750001192092896,6.9970704317092896,True,1.0,correct,True,False,7.078124837018549,0.0535077974200248,True,correct,True,both prefer GT
+LLaVA-OV-7B,red_wolf_prompt1,Animals,animal,7.234374783933163,7.856445096433163,True,1.0,correct,True,False,7.624999864259735,0.0279939994215965,True,correct,True,both prefer GT
+LLaVA-OV-7B,reindeer_prompt1,Animals,animal,4.937500230967999,5.559570543467999,True,1.0,correct,True,False,5.749999828636646,0.1270752549171447,True,correct,True,both prefer GT
+LLaVA-OV-7B,rhea_prompt1,Animals,animal,5.0937498062849045,4.4716794937849045,True,1.0,correct,True,False,5.125000176019967,0.0765228345990181,True,correct,True,both prefer GT
+LLaVA-OV-7B,rooster_prompt1,Animals,animal,5.578125010244548,4.956054697744548,True,1.0,correct,True,False,6.046874853782356,0.0694845616817474,True,correct,True,both prefer GT
+LLaVA-OV-7B,sandpiper_prompt1,Animals,animal,5.906250208616257,6.580078333616257,True,1.0,correct,True,False,6.56250004703179,0.0404275134205818,True,correct,True,both prefer GT
+LLaVA-OV-7B,secretary_bird_prompt1,Animals,animal,5.500000059604645,6.173828184604645,True,1.0,correct,True,False,5.609375056810677,0.0817033797502517,True,correct,True,both prefer GT
+LLaVA-OV-7B,serval_prompt1,Animals,animal,6.062500178813934,6.684570491313934,True,1.0,correct,True,False,6.578125016298145,0.0495638214051723,True,correct,True,both prefer GT
+LLaVA-OV-7B,sheep_prompt1,Animals,animal,6.656250208616257,7.278320521116257,True,1.0,correct,True,False,7.078124956227839,0.0469607673585414,True,correct,True,both prefer GT
+LLaVA-OV-7B,spoonbill_prompt1,Animals,animal,4.453124888241291,5.126953013241291,True,1.0,correct,True,False,5.093750021420419,0.072274699807167,True,correct,True,both prefer GT
+LLaVA-OV-7B,springbok_prompt1,Animals,animal,5.656249925494194,6.278320237994194,True,1.0,correct,True,False,6.406250043772161,0.0392574220895767,True,correct,True,both prefer GT
+LLaVA-OV-7B,stilt_prompt1,Animals,animal,4.734375145286322,5.408203270286322,True,1.0,correct,True,False,4.656249862164259,0.1738859266042709,True,correct,True,both prefer GT
+LLaVA-OV-7B,stork_prompt1,Animals,animal,6.203124886378646,6.876953011378646,True,1.0,correct,True,False,6.39062509033829,0.0477817691862583,True,correct,True,both prefer GT
+LLaVA-OV-7B,swan_prompt1,Animals,animal,5.92187493480742,5.29980462230742,True,1.0,correct,True,False,6.000000143889338,0.0451282151043415,True,correct,True,both prefer GT
+LLaVA-OV-7B,tiger_prompt1,Animals,animal,5.906249910593033,6.528320223093033,True,1.0,correct,True,False,6.468749850988388,0.0735224857926368,True,correct,True,both prefer GT
+LLaVA-OV-7B,turkey_prompt1,Animals,animal,4.265625111758709,3.643554799258709,True,1.0,correct,True,False,4.062499864026904,0.1519104391336441,True,correct,True,both prefer GT
+LLaVA-OV-7B,warthog_prompt1,Animals,animal,6.390625214204192,7.012695526704192,True,1.0,correct,True,False,6.546875237021595,0.0345432944595813,True,correct,True,both prefer GT
+LLaVA-OV-7B,water_buffalo_prompt1,Animals,animal,6.078124821186066,6.700195133686066,True,1.0,correct,True,False,6.499999772757292,0.0691273510456085,True,correct,True,both prefer GT
+LLaVA-OV-7B,wild_boar_prompt1,Animals,animal,6.500000150874257,7.122070463374257,True,1.0,correct,True,False,6.609375232830644,0.0431646332144737,True,correct,True,both prefer GT
+LLaVA-OV-7B,wildebeest_prompt1,Animals,animal,6.867187328636646,7.489257641136646,True,1.0,correct,True,False,7.109375002793968,0.0383560769259929,True,correct,True,both prefer GT
+LLaVA-OV-7B,yak_prompt1,Animals,animal,5.437499932944775,6.059570245444775,True,1.0,correct,True,False,5.781250045634806,0.0888966470956802,True,correct,True,both prefer GT
+LLaVA-OV-7B,zebra_prompt1,Animals,animal,6.999999992549419,7.622070305049419,True,1.0,correct,True,False,7.359375068452209,0.0459579117596149,True,correct,True,both prefer GT
+LLaVA-OV-7B,adidas_prompt1,Logos,shoes,5.3749998807907104,5.8691405057907104,True,1.0,correct,True,False,5.749999810941517,0.1136202439665794,True,correct,True,both prefer GT
+LLaVA-OV-7B,nike_prompt1,Logos,shoes,0.4375,-0.73046875,True,0.0,correct,True,False,0.171875,2.01967453956604,True,correct,True,both prefer GT
+LLaVA-OV-7B,chess_grid_standard_notitle_px1152_Q1,Game Boards,Chess Grid,1.2074490189552307,5.165762007236481,True,1.0,correct,True,False,1.8906249105930328,1.011180400848389,True,correct,True,both prefer GT
+LLaVA-OV-7B,sudoku_grid_standard_notitle_px1152_Q1,Game Boards,Sudoku Grid,2.644501119852066,6.597443014383316,True,1.0,correct,True,False,5.796875201165676,0.3438733518123626,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,flag_of_australia_prompt1,Flags,flags,-1.21875,-0.61718797683716,False,0.0,other_numeric_error,False,False,-0.25,1.6132100820541382,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-3B,flag_of_burundi_prompt1,Flags,flags,2.53125,4.4765625,True,1.0,correct,True,False,3.4999999701976776,0.2281105518341064,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,flag_of_china_prompt1,Flags,flags,1.859375,1.2578129768371582,True,1.0,correct,True,False,3.1874999701976776,0.4185038208961487,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,flag_of_comoros_prompt1,Flags,flags,0.546875,0.140625,True,1.0,correct,True,False,-0.078125,1.3875035047531128,False,proxy confusion,False,sequence GT / token proxy
+Qwen2.5-VL-3B,flag_of_cuba_prompt1,Flags,flags,-2.984375,-3.265625,False,0.0,proxy_confusion,False,True,-3.906250193715096,0.6493160724639893,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-3B,flag_of_greece_prompt1,Flags,flags,-3.537654757499695,0.5700869560241699,False,1.0,other_numeric_error,False,False,-0.5416660308837891,1.580836296081543,False,other numeric error,True,both prefer proxy
+Qwen2.5-VL-3B,flag_of_grenada_prompt1,Flags,flags,-0.578125,-0.6015624999999982,False,0.0,proxy_confusion,False,True,-0.78125,1.5509731769561768,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-3B,flag_of_new_zealand_prompt1,Flags,flags,1.78125,1.375,True,1.0,correct,True,False,2.437500014901161,0.5446704030036926,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,flag_of_singapore_prompt1,Flags,flags,0.5,-0.1015620231628418,True,0.0,correct,True,False,0.28125,1.000492811203003,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,flag_of_thailand_prompt1,Flags,flags,0.359375,0.484375,True,1.0,correct,True,False,0.671875,1.082964301109314,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,flag_of_uruguay_prompt1,Flags,flags,-6.511525601148605,-2.4037838876247406,False,0.0,other_numeric_error,False,False,-2.1011905670166016,1.0738937854766846,False,other numeric error,True,both prefer proxy
+Qwen2.5-VL-3B,flag_of_venezuela_prompt1,Flags,flags,-3.46055306494236,0.6393761485815048,False,1.0,correct,True,False,3.015625089406967,0.7176592946052551,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-3B,flag_of_zimbabwe_prompt1,Flags,flags,-1.8125,-1.1875004768371582,False,0.0,proxy_confusion,False,True,-1.8593750596046448,1.6087652444839478,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-3B,flag_of_the_philippines_prompt1,Flags,flags,-1.109375,-0.7109374999999982,False,0.0,correct,True,False,0.75,1.1670531034469604,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-3B,african_elephant_prompt1,Animals,animal,6.359374523162842,5.6328125,True,1.0,correct,True,False,8.265625457046553,0.0113791590556502,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,african_wild_dog_prompt1,Animals,animal,6.09375,5.36718797683716,True,1.0,correct,True,False,6.671875085681677,0.0576761960983276,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,alpaca_prompt1,Animals,animal,5.65625,4.929687976837158,True,1.0,correct,True,False,7.750000040512532,0.0110988030210137,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,antelope_prompt1,Animals,animal,4.484374523162842,3.7578125,True,1.0,correct,True,False,5.531250042840838,0.0722711086273193,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,arctic_fox_prompt1,Animals,animal,6.125000476837158,5.398438453674316,True,1.0,correct,True,False,6.718749990221113,0.0419861823320388,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,asian_elephant_prompt1,Animals,animal,6.734375,6.00781297683716,True,1.0,correct,True,False,8.609374626947101,0.0088508669286966,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,audi_prompt1,Logos,cars,3.640625,3.234375,True,1.0,correct,True,False,4.171875214204192,0.1258624345064163,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,avocet_prompt1,Animals,animal,2.75,4.296875,True,1.0,correct,True,False,7.23437479196582,0.0122171118855476,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,bactrian_camel_prompt1,Animals,animal,3.734374523162842,3.0078125,True,1.0,correct,True,False,6.515624791383743,0.0333044230937957,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,bighorn_sheep_prompt1,Animals,animal,5.531250476837158,4.804688453674316,True,1.0,correct,True,False,7.062500125961378,0.0185847878456115,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,bison_prompt1,Animals,animal,5.59375,4.867187976837158,True,1.0,correct,True,False,8.000000129104592,0.0090776225551962,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,bobcat_prompt1,Animals,animal,5.0,4.273437976837158,True,1.0,correct,True,False,5.515624906867743,0.2242838889360427,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,buffalo_prompt1,Animals,animal,5.796875476837158,5.070313453674316,True,1.0,correct,True,False,8.109374654304702,0.0091618401929736,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,camel_prompt1,Animals,animal,3.296875,2.570312976837158,True,1.0,correct,True,False,6.81249999627471,0.0248014368116855,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,caracal_prompt1,Animals,animal,4.921875,4.195312976837158,True,1.0,correct,True,False,5.640625142492354,0.0941298827528953,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,caribou_prompt1,Animals,animal,6.140624523162842,5.4140625,True,1.0,correct,True,False,7.54687522072345,0.0359095558524131,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,cassowary_prompt1,Animals,animal,1.3593745231628418,1.3671870231628418,True,1.0,correct,True,False,5.390624945983291,0.0397676974534988,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,cheetah_prompt1,Animals,animal,5.343750476837158,4.617188453674316,True,1.0,correct,True,False,6.421874850988388,0.1412063390016555,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,chicken_prompt1,Animals,animal,1.0625,1.0703125,True,1.0,correct,True,False,6.23437483375892,0.0261682998389005,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,cow_prompt1,Animals,animal,6.953125,6.226562976837158,True,1.0,correct,True,False,9.046874882245902,0.0054878867231309,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,coyote_prompt1,Animals,animal,6.625000476837158,5.898438453674316,True,1.0,correct,True,False,7.015624879859388,0.0340047143399715,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,crane_prompt1,Animals,animal,2.90625,2.9140625,True,1.0,correct,True,False,7.95312515750993,0.0109224338084459,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,deer_prompt1,Animals,animal,5.25,4.523437976837158,True,1.0,correct,True,False,6.203124877531081,0.0425339005887508,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,dingo_prompt1,Animals,animal,6.421875,5.695312976837156,True,1.0,correct,True,False,6.765624846331775,0.0552460066974163,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,domestic_cat_prompt1,Animals,animal,5.390625476837158,4.664063453674316,True,1.0,correct,True,False,5.687500124797225,0.0656075552105903,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,domestic_dog_prompt1,Animals,animal,6.750000476837158,6.742187976837156,True,1.0,correct,True,False,7.234374866820872,0.0378993600606918,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,donkey_prompt1,Animals,animal,5.937499523162842,5.2109375,True,1.0,correct,True,False,7.671875118045136,0.0121126938611269,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,dromedary_camel_prompt1,Animals,animal,3.046875,2.32031297683716,True,1.0,correct,True,False,6.812500113854185,0.0220768302679061,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,duck_prompt1,Animals,animal,2.546875,2.5546875,True,1.0,correct,True,False,7.406249926658347,0.015527281910181,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,egret_prompt1,Animals,animal,2.53125,4.078125,True,1.0,correct,True,False,6.953124818275683,0.0141591820865869,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,eland_prompt1,Animals,animal,4.812500476837158,4.085938453674316,True,1.0,correct,True,False,6.687499810475856,0.0377510040998458,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,elk_prompt1,Animals,animal,6.828125,6.101562976837158,True,1.0,correct,True,False,8.093749604653567,0.01253561116755,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,emu_prompt1,Animals,animal,-0.1249995231628418,-0.1171870231628418,False,0.0,correct,True,False,4.718749978579581,0.0830282792448997,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-3B,fennec_fox_prompt1,Animals,animal,5.5625,5.5546875,True,1.0,correct,True,False,6.375000046100467,0.0390268452465534,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,gazelle_prompt1,Animals,animal,4.71875,3.992187976837158,True,1.0,correct,True,False,5.874999850988388,0.047671191394329,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,giraffe_prompt1,Animals,animal,5.562499523162842,4.8359375,True,1.0,correct,True,False,7.84374985890463,0.0083974925801157,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,gnu_prompt1,Animals,animal,5.765625476837158,5.039063453674316,True,1.0,correct,True,False,7.4374997720588,0.0170473363250494,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,goat_prompt1,Animals,animal,6.140625,5.41406297683716,True,1.0,correct,True,False,7.328124801511876,0.0161595065146684,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,gray_wolf_prompt1,Animals,animal,6.375000476837158,6.367187976837158,True,1.0,correct,True,False,7.26562520256266,0.036445926874876,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,hare_prompt1,Animals,animal,4.515625476837158,3.789063453674314,True,1.0,correct,True,False,4.406250117346644,0.0950050503015518,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,heron_prompt1,Animals,animal,3.3125,4.859375,True,1.0,correct,True,False,7.546875149826519,0.0133385742083191,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,hippopotamus_prompt1,Animals,animal,4.921875476837158,4.195313453674316,True,1.0,correct,True,False,7.015624985331669,0.0318358466029167,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,horse_prompt1,Animals,animal,6.109375,5.382812976837158,True,1.0,correct,True,False,7.906249787425622,0.0270697399973869,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,hyena_prompt1,Animals,animal,5.562499523162842,4.8359375,True,1.0,correct,True,False,6.8281249036081135,0.046315211802721,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,ibex_prompt1,Animals,animal,5.328125,4.601562976837158,True,1.0,correct,True,False,6.656249791150913,0.0227944031357765,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,ibis_prompt1,Animals,animal,3.046875,4.59375,True,1.0,correct,True,False,7.781249950872734,0.0128982849419116,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,impala_prompt1,Animals,animal,4.734375,4.007812976837158,True,1.0,correct,True,False,6.062499950174242,0.0402114242315292,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,indian_rhinoceros_prompt1,Animals,animal,4.734374523162842,4.0078125,True,1.0,correct,True,False,7.562500130617991,0.0211495570838451,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,jackal_prompt1,Animals,animal,6.03125,5.304687976837158,True,1.0,correct,True,False,6.578125175554305,0.0401069708168506,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,jaguar_prompt1,Animals,animal,5.375,4.648437976837158,True,1.0,correct,True,False,6.234374936670065,0.0976646691560745,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,kudu_prompt1,Animals,animal,5.390625,4.664062976837158,True,1.0,correct,True,False,7.26562492409721,0.0200328398495912,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,lapwing_prompt1,Animals,animal,3.109375,4.65625,True,1.0,correct,True,False,7.249999781372026,0.0136663792654871,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,leopard_prompt1,Animals,animal,5.656250476837158,4.929688453674316,True,1.0,correct,True,False,6.812499919906259,0.0559113584458828,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,lion_prompt1,Animals,animal,5.953124523162842,5.2265625,True,1.0,correct,True,False,8.015624911524355,0.016458261758089,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,llama_prompt1,Animals,animal,5.921875,5.195312976837158,True,1.0,correct,True,False,7.874999841442332,0.0093929637223482,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,lynx_prompt1,Animals,animal,5.109375476837158,4.382813453674316,True,1.0,correct,True,False,5.468750074505806,0.1888594031333923,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,maned_wolf_prompt1,Animals,animal,5.000000476837158,4.273438453674316,True,1.0,correct,True,False,6.156249850988388,0.047248538583517,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,maserati_prompt1,Logos,cars,-0.328125,0.0703125,False,1.0,correct,True,False,1.3437500596046448,0.6921998262405396,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-3B,mercedes_prompt1,Logos,cars,-3.109375,-2.828125,False,0.0,proxy_confusion,False,True,-1.8906249701976776,1.147709846496582,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-3B,moose_prompt1,Animals,animal,5.859375,5.132812976837158,True,1.0,correct,True,False,8.328125210828148,0.0093185007572174,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,mountain_goat_prompt1,Animals,animal,6.046875,5.320312976837158,True,1.0,correct,True,False,7.609374957741238,0.0144821582362055,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,mule_prompt1,Animals,animal,5.4375,4.710937976837158,True,1.0,correct,True,False,7.406250019092113,0.0156445875763893,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,ocelot_prompt1,Animals,animal,4.125000476837158,3.3984384536743164,True,1.0,correct,True,False,4.390625178813934,0.5615983605384827,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,okapi_prompt1,Animals,animal,5.281249523162842,4.5546875,True,1.0,correct,True,False,7.749999877763912,0.0208927616477012,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,ostrich_prompt1,Animals,animal,-0.78125,-0.7734375,False,0.0,correct,True,False,5.140624953899533,0.0460904315114021,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-3B,oystercatcher_prompt1,Animals,animal,2.6875,4.234375,True,1.0,correct,True,False,6.687499856809154,0.0194044038653373,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,peacock_prompt1,Animals,animal,4.21875,5.765625,True,1.0,correct,True,False,7.734375188942067,0.0109998891130089,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,pig_prompt1,Animals,animal,5.609375,4.882812976837158,True,1.0,correct,True,False,8.921875129803084,0.0074936505407094,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,plover_prompt1,Animals,animal,3.3125,3.3203125,True,1.0,correct,True,False,7.921874988707714,0.0139511907473206,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,pronghorn_prompt1,Animals,animal,5.15625,4.429687976837158,True,1.0,correct,True,False,6.046875139698386,0.0765921622514724,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,puma_prompt1,Animals,animal,5.0625,4.335937976837158,True,1.0,correct,True,False,6.25000006146729,0.1041979789733886,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,rabbit_prompt1,Animals,animal,4.296875,3.570312976837158,True,1.0,correct,True,False,4.296875193715096,0.1027755513787269,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,red_fox_prompt1,Animals,animal,5.624999523162842,4.8984375,True,1.0,correct,True,False,6.343749875202775,0.0554582923650741,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,red_wolf_prompt1,Animals,animal,5.875,5.148437976837158,True,1.0,correct,True,False,7.078124869149178,0.0388648100197315,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,reindeer_prompt1,Animals,animal,5.6875,4.960937976837158,True,1.0,correct,True,False,6.796874834224582,0.1282576620578766,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,rhea_prompt1,Animals,animal,0.234375,0.2421875,True,1.0,correct,True,False,5.187500115483999,0.0464216470718383,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,rooster_prompt1,Animals,animal,2.406249523162842,2.414062023162842,True,1.0,correct,True,False,6.390624917577952,0.0388040691614151,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,sandpiper_prompt1,Animals,animal,2.890625,4.4375,True,1.0,correct,True,False,7.515624899649993,0.0132354600355029,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,secretary_bird_prompt1,Animals,animal,2.609375,4.15625,True,1.0,correct,True,False,6.281249943422154,0.0263559054583311,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,serval_prompt1,Animals,animal,4.531250476837158,3.804688453674317,True,1.0,correct,True,False,5.3906248938292265,0.1679359823465347,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,sheep_prompt1,Animals,animal,6.453125,5.726562976837158,True,1.0,correct,True,False,9.218749619554728,0.0050551649183034,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,spoonbill_prompt1,Animals,animal,3.09375,4.640625,True,1.0,correct,True,False,6.687500169267878,0.0189665891230106,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,springbok_prompt1,Animals,animal,4.296874523162842,3.5703125,True,1.0,correct,True,False,5.374999950639904,0.0704353749752044,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,stilt_prompt1,Animals,animal,2.265625,3.8125,True,1.0,correct,True,False,6.4531247720588,0.0310639776289463,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,stork_prompt1,Animals,animal,3.328125,4.875,True,1.0,correct,True,False,8.046874702791683,0.0111427148804068,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,swan_prompt1,Animals,animal,3.265625476837158,4.812500476837158,True,1.0,correct,True,False,7.281250075553544,0.0098793469369411,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,tiger_prompt1,Animals,animal,4.843750476837158,4.117188453674316,True,1.0,correct,True,False,5.437499836087227,0.5197726488113403,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,turkey_prompt1,Animals,animal,2.15625,2.1640625,True,1.0,correct,True,False,6.437500158092007,0.0287267062813043,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,warthog_prompt1,Animals,animal,4.171875,3.445312976837158,True,1.0,correct,True,False,7.1249998330604285,0.0291001554578542,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,water_buffalo_prompt1,Animals,animal,5.546875,4.820312976837158,True,1.0,correct,True,False,7.687500071828254,0.0130918929353356,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,wild_boar_prompt1,Animals,animal,5.062499523162842,4.3359375,True,1.0,correct,True,False,7.609374888706952,0.0178040228784084,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,wildebeest_prompt1,Animals,animal,5.390624523162842,4.6640625,True,1.0,correct,True,False,7.203125077765435,0.020721536129713,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,yak_prompt1,Animals,animal,6.249999523162842,5.5234375,True,1.0,correct,True,False,7.53124988975469,0.0123279206454753,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,zebra_prompt1,Animals,animal,5.078125,4.351562976837158,True,1.0,correct,True,False,8.249999640102033,0.0101009588688611,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,adidas_prompt1,Logos,shoes,1.109375,3.0546875,True,1.0,correct,True,False,3.578124888241291,0.3213450908660888,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,nike_prompt1,Logos,shoes,0.203125,-1.34375,True,0.0,correct,True,False,0.171875,1.8442201614379885,True,correct,True,both prefer GT
+Qwen2.5-VL-3B,chess_grid_standard_notitle_px1152_Q1,Game Boards,Chess Grid,-0.2767732143402099,3.823155999183655,False,1.0,correct,True,False,2.2343749701976776,0.9738960862159728,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-3B,sudoku_grid_standard_notitle_px1152_Q1,Game Boards,Sudoku Grid,-0.7356331571936607,3.372108556330204,False,1.0,correct,True,False,3.36086268723011,0.7128799557685852,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-7B,flag_of_australia_prompt1,Flags,flags,-1.9375,-2.0732421875,False,0.0,other_numeric_error,False,False,-3.5312500819563866,0.3727487623691559,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_burundi_prompt1,Flags,flags,-1.3125,-1.421875,False,0.0,proxy_confusion,False,True,-2.7656250819563866,0.4876698553562164,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_china_prompt1,Flags,flags,1.8671875,1.8798828125,True,1.0,correct,True,False,2.093750074505806,0.3497293591499328,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,flag_of_comoros_prompt1,Flags,flags,-0.265625,-0.2783203125,False,0.0,proxy_confusion,False,True,-1.078125,1.0075833797454834,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_cuba_prompt1,Flags,flags,-4.804686546325684,-4.682616233825684,False,0.0,proxy_confusion,False,True,-2.6093748807907104,0.9064466953277588,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_greece_prompt1,Flags,flags,-6.324411392211914,-1.6875518560409546,False,0.0,correct,True,False,-0.3430061340332031,1.7073429822921753,False,other numeric error,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_grenada_prompt1,Flags,flags,1.0078125,0.927734375,True,1.0,proxy_confusion,False,True,-0.171875,1.1359689235687256,False,proxy confusion,False,sequence GT / token proxy
+Qwen2.5-VL-7B,flag_of_new_zealand_prompt1,Flags,flags,2.796875,2.90625,True,1.0,correct,True,False,4.703125007450581,0.0678798928856849,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,flag_of_singapore_prompt1,Flags,flags,2.3125,2.3251953125,True,1.0,correct,True,False,5.828125221421942,0.0292412284761667,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,flag_of_thailand_prompt1,Flags,flags,-2.5234375,-2.5107421875,False,0.0,proxy_confusion,False,True,-3.218749918043613,0.2017965614795684,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_uruguay_prompt1,Flags,flags,-7.976536631584167,-3.339677095413208,False,0.0,other_numeric_error,False,False,-2.645833730697632,0.687755286693573,False,other numeric error,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_venezuela_prompt1,Flags,flags,-6.017271280288696,-1.5581461191177368,False,0.0,other_numeric_error,False,False,0.828125,1.5016762018203735,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-7B,flag_of_zimbabwe_prompt1,Flags,flags,-0.6640625,-0.5283203125,False,0.0,correct,True,False,-0.5156250596046448,1.4844403266906738,False,proxy confusion,True,both prefer proxy
+Qwen2.5-VL-7B,flag_of_the_philippines_prompt1,Flags,flags,2.3203125,2.2109375,True,1.0,correct,True,False,2.234374895691872,0.6028835773468018,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,african_elephant_prompt1,Animals,animal,8.531250476837158,8.640625476837158,True,1.0,correct,True,False,10.343749883359123,0.0008788944687694,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,african_wild_dog_prompt1,Animals,animal,8.484375,8.193359375,True,1.0,correct,True,False,10.734374883933924,0.0009807989699766,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,alpaca_prompt1,Animals,animal,7.796874046325684,7.906249046325684,True,1.0,correct,True,False,12.49999952325834,0.0002004154375754,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,antelope_prompt1,Animals,animal,8.078125,8.1875,True,1.0,correct,True,False,12.000000000220098,0.000289617863018,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,arctic_fox_prompt1,Animals,animal,8.062500953674316,8.171875953674316,True,1.0,correct,True,False,11.140625240041118,0.0007214449578896,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,asian_elephant_prompt1,Animals,animal,8.531249046325684,8.640624046325684,True,1.0,correct,True,False,10.031249649982785,0.0014606380136683,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,audi_prompt1,Logos,cars,2.0546875,2.1640625,True,1.0,correct,True,False,5.281249947845936,0.0342230051755905,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,avocet_prompt1,Animals,animal,7.171875476837158,6.882812976837158,True,1.0,correct,True,False,6.593750100582838,0.014229173772037,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,bactrian_camel_prompt1,Animals,animal,7.859374046325684,7.968749046325684,True,1.0,correct,True,False,10.968750000800355,0.0005191057571209,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,bighorn_sheep_prompt1,Animals,animal,7.843749046325684,7.953124046325684,True,1.0,correct,True,False,12.23437511938937,0.0002644866763148,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,bison_prompt1,Animals,animal,7.515625,7.625,True,1.0,correct,True,False,11.70312476217805,0.0004619171377271,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,bobcat_prompt1,Animals,animal,8.8203125,8.9296875,True,1.0,correct,True,False,10.624999529332854,0.001346242846921,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,buffalo_prompt1,Animals,animal,7.859375953674316,7.968750953674316,True,1.0,correct,True,False,11.64062535841731,0.0005249978275969,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,camel_prompt1,Animals,animal,8.40625,8.515625,True,1.0,correct,True,False,11.48437500030741,0.0003361967101227,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,caracal_prompt1,Animals,animal,8.789061546325684,8.898436546325684,True,1.0,correct,True,False,10.953125360807462,0.0009939349256455,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,caribou_prompt1,Animals,animal,8.593749523162842,8.703124523162842,True,1.0,correct,True,False,11.70312535800076,0.0003689311561174,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,cassowary_prompt1,Animals,animal,8.0625,9.21484375,True,1.0,correct,True,False,9.109375258616636,0.0021864443551748,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,cheetah_prompt1,Animals,animal,8.703124046325684,8.812499046325684,True,1.0,correct,True,False,11.249999884006684,0.0010070854332298,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,chicken_prompt1,Animals,animal,7.9765625,7.796875,True,1.0,correct,True,False,9.14062538201688,0.0023799515329301,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,cow_prompt1,Animals,animal,8.984375953674316,9.093750953674316,True,1.0,correct,True,False,12.468749880994435,0.0002881435793824,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,coyote_prompt1,Animals,animal,8.335938453674316,8.445313453674316,True,1.0,correct,True,False,11.359374643619958,0.0006418823613785,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,crane_prompt1,Animals,animal,7.7734375,7.59375,True,1.0,correct,True,False,8.218750224332325,0.0045210709795355,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,deer_prompt1,Animals,animal,9.015625,9.125,True,1.0,correct,True,False,12.078124523373845,0.0002849345910362,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,dingo_prompt1,Animals,animal,8.796875,8.90625,True,1.0,correct,True,False,10.484374649407982,0.0014175386168062,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,domestic_cat_prompt1,Animals,animal,9.390625953674316,9.500000953674316,True,1.0,correct,True,False,9.656249546897016,0.0024237670004367,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,domestic_dog_prompt1,Animals,animal,8.781250476837158,8.490234851837158,True,1.0,correct,True,False,10.281250250161976,0.0017990932101383,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,donkey_prompt1,Animals,animal,7.9375,8.046875,True,1.0,correct,True,False,11.43749964318704,0.0005317818140611,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,dromedary_camel_prompt1,Animals,animal,8.0078125,8.1171875,True,1.0,correct,True,False,10.953125120166078,0.0005694031133316,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,duck_prompt1,Animals,animal,8.2109375,8.03125,True,1.0,correct,True,False,9.031250392406946,0.0028046462684869,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,egret_prompt1,Animals,animal,7.6953125,7.40625,True,1.0,correct,True,False,6.89062499825377,0.0117290066555142,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,eland_prompt1,Animals,animal,8.6640625,8.7734375,True,1.0,correct,True,False,12.625000238545908,0.0002302509819855,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,elk_prompt1,Animals,animal,7.84375,7.552734375,True,1.0,correct,True,False,10.984375239637302,0.0006424247985705,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,emu_prompt1,Animals,animal,7.6953125,7.515625,True,1.0,correct,True,False,8.093750154483132,0.0054834620095789,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,fennec_fox_prompt1,Animals,animal,8.726563453674316,8.835938453674316,True,1.0,correct,True,False,11.17187464352537,0.0006155593437142,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,gazelle_prompt1,Animals,animal,7.6484375,7.7578125,True,1.0,correct,True,False,12.1718750001819,0.0002661273465491,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,giraffe_prompt1,Animals,animal,7.695313453674316,7.404297828674316,True,1.0,correct,True,False,11.265624523413862,0.0002966871252283,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,gnu_prompt1,Animals,animal,7.6484375,7.357421875,True,1.0,correct,True,False,11.781249881125404,0.0003544554929248,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,goat_prompt1,Animals,animal,7.0859375,7.1953125,True,1.0,correct,True,False,11.640625358206307,0.0004590292228385,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,gray_wolf_prompt1,Animals,animal,7.953125953674316,8.062500953674316,True,1.0,correct,True,False,10.921875121559424,0.0008577721891924,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,hare_prompt1,Animals,animal,7.40625,7.515625,True,1.0,correct,True,False,10.468749764018868,0.0008522443240508,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,heron_prompt1,Animals,animal,7.265625,8.41796875,True,1.0,correct,True,False,7.625000081898179,0.005868443287909,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,hippopotamus_prompt1,Animals,animal,5.3046875,5.4140625,True,1.0,correct,True,False,8.531249943422154,0.0036663985811173,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,horse_prompt1,Animals,animal,8.65625,8.765625,True,1.0,correct,True,False,10.687499764811946,0.0010004846844822,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,hyena_prompt1,Animals,animal,7.2890625,7.3984375,True,1.0,correct,True,False,10.64062500174623,0.0007331515662372,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,ibex_prompt1,Animals,animal,7.6640625,7.7734375,True,1.0,correct,True,False,12.015624523373845,0.0002838206419255,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,ibis_prompt1,Animals,animal,7.6484375,7.359375,True,1.0,correct,True,False,8.671874671097612,0.0024831725750118,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,impala_prompt1,Animals,animal,8.3828125,8.091796875,True,1.0,correct,True,False,12.07812511937118,0.0002538997796364,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,indian_rhinoceros_prompt1,Animals,animal,7.703125953674316,7.812500953674316,True,1.0,correct,True,False,10.34374988284253,0.0007746476912871,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,jackal_prompt1,Animals,animal,8.648438453674316,8.757813453674316,True,1.0,correct,True,False,11.46875000088039,0.000546378083527,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,jaguar_prompt1,Animals,animal,8.4375,8.4248046875,True,1.0,correct,True,False,10.51562525377085,0.00205121608451,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,kudu_prompt1,Animals,animal,8.0,8.109375,True,1.0,correct,True,False,11.953125000356522,0.0003642271040007,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,lapwing_prompt1,Animals,animal,8.078125,9.23046875,True,1.0,correct,True,False,8.874999922292773,0.0029956016223877,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,leopard_prompt1,Animals,animal,8.703125953674316,8.812500953674316,True,1.0,correct,True,False,10.531249770021532,0.0015542792389169,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,lion_prompt1,Animals,animal,7.570311546325684,7.679686546325684,True,1.0,correct,True,False,10.312499646686774,0.0011333429720252,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,llama_prompt1,Animals,animal,8.304686546325684,8.414061546325684,True,1.0,correct,True,False,12.328125000240108,0.000305799418129,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,lynx_prompt1,Animals,animal,8.921875476837158,9.031250476837158,True,1.0,correct,True,False,10.593749647909137,0.0012793932110071,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,maned_wolf_prompt1,Animals,animal,8.421875953674316,8.531250953674316,True,1.0,correct,True,False,10.84375024050678,0.0008054264471866,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,maserati_prompt1,Logos,cars,1.765625,1.65625,True,1.0,correct,True,False,3.671875080093741,0.1523291915655136,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,mercedes_prompt1,Logos,cars,0.2265625,0.1044921875,True,1.0,proxy_confusion,False,True,-2.890624910593033,0.4018692970275879,False,proxy confusion,False,sequence GT / token proxy
+Qwen2.5-VL-7B,moose_prompt1,Animals,animal,7.8828125,7.9921875,True,1.0,correct,True,False,10.859375001324224,0.0006551218684762,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,mountain_goat_prompt1,Animals,animal,7.140625,7.25,True,1.0,correct,True,False,11.500000000381988,0.0003717652289196,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,mule_prompt1,Animals,animal,8.4765625,8.5859375,True,1.0,correct,True,False,11.281250001375156,0.0006804582080803,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,ocelot_prompt1,Animals,animal,9.281249523162842,9.390624523162842,True,1.0,correct,True,False,10.359375010928488,0.0017378359334543,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,okapi_prompt1,Animals,animal,8.4140625,8.5234375,True,1.0,correct,True,False,11.43749964386734,0.0007053945446386,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,ostrich_prompt1,Animals,animal,8.4453125,9.59765625,True,1.0,correct,True,False,9.593750135085427,0.0020308666862547,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,oystercatcher_prompt1,Animals,animal,8.015625476837158,9.167969226837158,True,1.0,correct,True,False,8.81250005410402,0.0033852304331958,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,peacock_prompt1,Animals,animal,7.78125,7.6015625,True,1.0,correct,True,False,7.187500068102963,0.0080282399430871,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,pig_prompt1,Animals,animal,5.84375,5.953125,True,1.0,correct,True,False,11.109374762210791,0.0004746743361465,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,plover_prompt1,Animals,animal,8.187499523162842,7.898437023162842,True,1.0,correct,True,False,7.8749999920255505,0.0044324961490929,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,pronghorn_prompt1,Animals,animal,7.1875,7.296875,True,1.0,correct,True,False,11.468749761970685,0.0003740010724868,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,puma_prompt1,Animals,animal,8.671874046325684,8.781249046325684,True,1.0,correct,True,False,10.5312501236549,0.0011596919503062,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,rabbit_prompt1,Animals,animal,6.7578125,6.8671875,True,1.0,correct,True,False,10.000000362415449,0.0011512751225382,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,red_fox_prompt1,Animals,animal,8.070312023162842,8.179687023162842,True,1.0,correct,True,False,10.734374525294696,0.000810916244518,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,red_wolf_prompt1,Animals,animal,8.437500476837158,8.546875476837158,True,1.0,correct,True,False,10.906250241532687,0.0009750090539455,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,reindeer_prompt1,Animals,animal,8.7109375,8.8203125,True,1.0,correct,True,False,11.562500238876964,0.0004052700533065,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,rhea_prompt1,Animals,animal,8.09375,7.9140625,True,1.0,correct,True,False,9.43749966820178,0.0025349119678139,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,rooster_prompt1,Animals,animal,8.109375,7.9296875,True,1.0,correct,True,False,9.062499783045496,0.0022243093699216,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,sandpiper_prompt1,Animals,animal,8.328125476837158,9.480469226837158,True,1.0,correct,True,False,8.390624816092895,0.003307799110189,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,secretary_bird_prompt1,Animals,animal,7.249999523162842,8.402343273162842,True,1.0,correct,True,False,7.265624852851033,0.0103514837101101,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,serval_prompt1,Animals,animal,8.859375,8.96875,True,1.0,correct,True,False,10.64062524399924,0.0012877229601144,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,sheep_prompt1,Animals,animal,8.242186546325684,8.351561546325684,True,1.0,correct,True,False,11.906250119491231,0.0003230049624107,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,spoonbill_prompt1,Animals,animal,7.507812023162842,8.660155773162842,True,1.0,correct,True,False,8.156249663967174,0.0051286304369568,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,springbok_prompt1,Animals,animal,7.734375,7.84375,True,1.0,correct,True,False,12.125000119427568,0.0002877767255995,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,stilt_prompt1,Animals,animal,6.8984375,8.05078125,True,1.0,correct,True,False,5.640625053551048,0.0466212779283523,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,stork_prompt1,Animals,animal,7.460937023162842,8.613280773162842,True,1.0,correct,True,False,7.921874864900019,0.0043315296061336,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,swan_prompt1,Animals,animal,7.9609375,9.11328125,True,1.0,correct,True,False,9.250000392406946,0.00285733374767,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,tiger_prompt1,Animals,animal,8.4609375,8.5703125,True,1.0,correct,True,False,10.406250371655917,0.0019640838727355,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,turkey_prompt1,Animals,animal,7.601562023162842,8.753905773162842,True,1.0,correct,True,False,8.609375414147507,0.0034658301156014,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,warthog_prompt1,Animals,animal,6.8125,6.921875,True,1.0,correct,True,False,11.328124761970685,0.0003713578917086,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,water_buffalo_prompt1,Animals,animal,7.4375,7.546875,True,1.0,correct,True,False,11.687499881230906,0.000401754892664,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,wild_boar_prompt1,Animals,animal,6.578125,6.6875,True,1.0,correct,True,False,11.578124881230906,0.0004007528768852,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,wildebeest_prompt1,Animals,animal,7.890624046325684,7.999999046325684,True,1.0,correct,True,False,12.14062535784069,0.0002878627565223,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,yak_prompt1,Animals,animal,8.671874523162842,8.781249523162842,True,1.0,correct,True,False,11.296875358533724,0.0005620133597403,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,zebra_prompt1,Animals,animal,9.406250953674316,9.515625953674316,True,1.0,correct,True,False,13.04687464241215,0.0001318764116149,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,adidas_prompt1,Logos,shoes,2.9296875,2.8203125,True,1.0,correct,True,False,3.687499955296517,0.3161407113075256,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,nike_prompt1,Logos,shoes,0.90625,-0.24609375,True,0.0,correct,True,False,1.1406250596046448,0.8543156981468201,True,correct,True,both prefer GT
+Qwen2.5-VL-7B,chess_grid_standard_notitle_px1152_Q1,Game Boards,Chess Grid,-3.821205347776413,0.6379198133945465,False,1.0,correct,True,False,3.218750052154064,0.4342081248760223,True,correct,False,sequence proxy / token GT
+Qwen2.5-VL-7B,sudoku_grid_standard_notitle_px1152_Q1,Game Boards,Sudoku Grid,-0.596612960100174,4.0402465760707855,False,1.0,correct,True,False,6.470237964764237,0.0353745147585868,True,correct,False,sequence proxy / token GT
