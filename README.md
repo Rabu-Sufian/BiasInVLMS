@@ -49,8 +49,7 @@ BiasInVLMS/
 │   ├── phase2_full_run.py             # VCD pipeline script
 │   └── phase_2_results/              # VCD parquets (per model, per distortion)
 │
-└── analysis/                          # Final analysis and paper figures
-    └── analysis.ipynb                 # Main analysis notebook (all figures)
+└└── analysis.ipynb                 # Main analysis notebook (all figures)
 ```
 
 ---
