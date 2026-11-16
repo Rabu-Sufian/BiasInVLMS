@@ -132,9 +132,7 @@ If you use this code, please cite:
 
 ## Contact
 
-- Rabia Abu Sufian: rabs@itu.dk
-- Ayat Khudoir: aykh@itu.dk
+- Rabia Abu Sufian: rabiasufian0@gmail.com
+- Ayat Khudoir: aykhudoir@hotmail.com
 - Stella Graßhof: stgr@itu.dk
 - Luca Rossi: lucr@itu.dk
-
-IT University of Copenhagen, Rued Langgaards Vej 7, 2300 Copenhagen, Denmark
